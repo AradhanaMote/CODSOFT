@@ -1,0 +1,258 @@
+body {
+    font-family: "Montserrat";
+    font-style: "oblique";
+  }
+  
+  #title {
+    color: #fff;
+    background-color: #ff4c68;
+  }
+  
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  .description {
+    color: #fff;
+    font-size: 1.5rem;    
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5
+  }
+  
+  h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+    font-size: 1.7rem;
+  }
+  
+  p {
+    font-weight: bold;
+    color: #8f8f8f;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  /* Download-Button */
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title-Image */
+  .title-image {
+    width: 50%;
+    /* transform: rotate(25deg); */
+    position: absolute;
+    right: 10%
+  }
+  
+  /* Features */
+  #features {
+    padding: 7% 16%;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+
+  .progress {
+    height: 1.5rem;
+  }
+  
+  .progress-bar{
+    background-color:#ef8172;
+    height: 1.5rem; 
+  }
+
+  .progress-bar:hover {
+    color: #130104;
+  }
+
+  /* Testimonials */
+  #testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+  }
+  
+  .testimonial-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+  }
+  
+  .carousel-item {
+      padding: 7% 15%;
+  }
+  
+  #press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  /* CTA */
+  #cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  .container {
+    height: 500px;
+    width: 1200px;
+    overflow: scroll;
+  }
+
+  .gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #ef8172;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ef8172;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+  /* #portfolio-flters {
+    cursor: pointer;
+    border: 2px solid #ef8172;
+    border-radius: 5px;
+    overflow: hidden;
+  } */
+
+  /* #portfolio-flters li {
+    cursor: pointer;
+    border-right: 2px solid #ef8172;
+    padding: 10px 15px;
+    margin: 0;
+    transition: background-color 0.3s ease; /* Smooth transition for the highlighting effect 
+  } */
+
+  /* #portfolio-flters li:last-child {
+    border-right: none;
+  } */
+
+  /* #portfolio-flters li:hover {
+    background-color: #ef8172; /* Highlighting color on hover 
+    color: #fff; /* Optional: Change text color on hover 
+  } */
+  
+  /* Footer section */
+  #footer {
+    text-align: center;
+    padding: 7% 15%;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+    font-size: 50px;
+    height: 80px;
+    width: 80px;
+    color: #ef8172;
+    /* font-size: 25px;
+    color: #e84700;
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #e84700;
+    line-height: 80px;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 0.35s;
+    -moz-transition: all ease-in-out 0.35s;
+    -o-transition: all ease-in-out 0.35s;
+    -ms-transition: all ease-in-out 0.35s;
+    transition: all ease-in-out 0.2s, background-color ease-in-out 0.05s; */
+    }
+
+    .social-icon:hover {
+        color: #910f22;
+    }
+  
+  @media (max-width: 1000px) {
+    #title {
+      text-align: center;
+    }
+    .title-image{
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
